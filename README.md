@@ -1,6 +1,5 @@
-# Popcat Trash for Windows
+# Trash cat for Windows
 
-Mac의 [cat-trash](https://github.com/Gojaehyeon/cat-trash) 컨셉을 Windows에 이식한 보조 휴지통 위젯.
 파일을 끌어다 고양이에 떨어뜨리면 고양이가 입을 벌리고 닫으며 파일을 휴지통으로 보낸다.
 
 ## 동작
@@ -102,7 +101,7 @@ popcat/
 
 - **Windows 전용** — macOS/Linux 미지원
 - **MAX_PATH 제한** — 깊은 폴더 경로에서 빌드 시 실패
-- **실시간 호버 애니메이션** — Mac Dock과 달리 Windows에는 글로벌 드래그 호버 이벤트가 없음. 위젯 영역 내로 들어와야 입 벌림 반응
+- **실시간 호버 애니메이션** — Mac OS와 달리 Windows에는 글로벌 드래그 호버 이벤트가 없음. 위젯 영역 내로 들어와야 입 벌림 반응
 - **z-order 고정의 한계** — `SetWindowPos(HWND_BOTTOM)`은 호출 시점에만 z-order를 맨 아래로 보냄. 새 창이 열리면 그 위에 표시되지만, 클릭 시 위로 올라올 수 있음
 - **안티바이러스 오탐 가능** — PyInstaller로 빌드된 .exe는 일부 백신이 의심 파일로 표시할 수 있음. 코드 서명 인증서 미적용
 
@@ -110,7 +109,5 @@ popcat/
 
 MIT (또는 본인이 선택한 라이선스로 변경)
 
-## 원본 영감
-
-- [Gojaehyeon/cat-trash](https://github.com/Gojaehyeon/cat-trash) — macOS 버전
+## 원본
 - Pop Cat 밈 — 위키미디어
