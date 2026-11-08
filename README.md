@@ -40,15 +40,16 @@
 ### 필요 사항
 
 - Python 3.10+ ([https://www.python.org/downloads/](https://www.python.org/downloads/))
-- 설치 시 `Add Python to PATH` 체크 필수
+- Windows용 Python Launcher가 필요합니다. `py --version`으로 버전을 확인하세요. `run.bat`은 같은 런처의 `pyw`를 사용합니다.
 
 ### 실행
 
 ```cmd
+py -m pip install PySide6
 run.bat
 ```
 
-처음 실행 시 PySide6와 의존 패키지가 자동 설치된다 (1~2분).
+저장소 루트에서 처음 한 번 PySide6를 설치한 뒤 실행합니다. 이후에는 `run.bat`만 실행하면 됩니다.
 
 ### 진단 (오류 발생 시)
 
@@ -107,7 +108,7 @@ popcat/
 
 ## 라이선스
 
-MIT (또는 본인이 선택한 라이선스로 변경)
+이 프로젝트의 README에는 MIT로 표기되어 있습니다. 저장소에 별도의 `LICENSE` 파일은 없습니다.
 
 ## 원본
 - Pop Cat 밈 — 위키미디어
